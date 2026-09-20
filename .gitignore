@@ -1,0 +1,23 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+uploads/
+*.zip
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+/dist/
+/build/
+.ipynb_checkpoints/
+storage/*
+!storage/.gitkeep
+# evaluation/results is committed so a clean checkout still shows the last local run
+*.log
+.DS_Store
+.python-version
+.mypy_cache/
+.ruff_cache/

@@ -1,0 +1,17 @@
+# Optional local monitoring stack. The API already exposes Prometheus metrics
+# at http://127.0.0.1:43123/metrics and on port 8001.
+#
+#   docker compose -f monitoring/docker-compose.yml up -d
+
+services:
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    network_mode: host
+  grafana:
+    image: grafana/grafana:11.2.0
+    network_mode: host
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_AUTH_ANONYMOUS_ENABLED: "true"

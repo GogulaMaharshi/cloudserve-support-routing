@@ -1,0 +1,3 @@
+Review the specification for a functional requirement against the CloudServe PRD.
+List gaps: missing inputs, missing failure behaviour, missing acceptance test.
+Do not invent new product goals.

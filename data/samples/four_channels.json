@@ -1,0 +1,26 @@
+[
+  {
+    "ticket_id": "SAMPLE-EMAIL",
+    "channel": "email",
+    "subject": "Cannot log in to the console",
+    "body": "The console returns Invalid credentials even though the password was reset an hour ago."
+  },
+  {
+    "ticket_id": "SAMPLE-CHAT",
+    "channel": "chat",
+    "subject": "",
+    "body": "builds that work last week are now fail during dependency resolution. we are having not change our code at all."
+  },
+  {
+    "ticket_id": "SAMPLE-DOCS",
+    "channel": "docs_comment",
+    "subject": "Pagination example",
+    "body": "The API docs for listing deployments do not show how cursor pagination should be passed."
+  },
+  {
+    "ticket_id": "SAMPLE-FORUM",
+    "channel": "forum",
+    "subject": "Need to rotate an exposed key",
+    "body": "One of our production keys started returning 401. Other keys against the same account still work."
+  }
+]

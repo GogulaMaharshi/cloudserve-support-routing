@@ -1,0 +1,12 @@
+Input: data/validation_tickets.json
+Tickets processed: 80
+Auto-respond: 61
+Escalated: 19
+Blocked: 0
+FCR: 76.25% (target 60%)
+Escalation: 23.75% (target ≤30%)
+Intent precision (weighted): 1.0
+Latency p95: 0.0137s (target <3s)
+Log covers every ticket: True
+Unsafe auto-respond: 0
+Elapsed: 1.0s
